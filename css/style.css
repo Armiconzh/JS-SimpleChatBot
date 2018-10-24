@@ -1,0 +1,32 @@
+    html, body {
+    font-family: Montserrat;
+    height: 60%;
+    padding: 0;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+  body {
+    background: linear-gradient(90deg, #303395 0%, #27F0F0 100%);
+    display: flex;
+    align-items: unset;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFF;
+    font-weight: 400;
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0, 0.6);
+  }
+
+    input {
+      background: transparent;
+      border: 2px solid black;
+      color: black;
+      border-radius: 5px;
+      padding: 2px 10px;
+      font-size: .9em;
+      text-align: center;
+      text-transform: uppercase;
+      font-family: Montserrat;
+  }
